@@ -1,0 +1,39 @@
+*{
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+
+html{
+    
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    color: yellow;
+    background-color: rgb(39, 21, 201);
+
+}
+
+h2{
+    font-size: 75%;
+}
+
+
+#starters_image_div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 44%;
+    border-width: 10px;
+    border-color: blue;
+}
+
+
+.each_pokemon_container{
+
+}
+
+.bulbasaur_Container{
+    border: solid;
+}
