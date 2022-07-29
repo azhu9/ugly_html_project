@@ -11,7 +11,7 @@ html{
 h1{
     text-align: center;
     color: yellow;
-    background-color: rgb(39, 21, 201);
+    background-color: #27445C;
 
 }
 
@@ -25,15 +25,31 @@ h2{
     margin-left: auto;
     margin-right: auto;
     width: 44%;
-    border-width: 10px;
-    border-color: blue;
+    border: 5px solid #27445C;
 }
 
-
-.each_pokemon_container{
+.pokemon_images{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
 
 }
 
-.bulbasaur_Container{
-    border: solid;
+#bulbasaur_container{
+    background-color: rgb(107, 211, 107);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#charmander_container{
+    background-color: rgb(216, 160, 38);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#squirtle_container{
+    background-color: rgb(87, 172, 221);
+    padding: 5px;
+    border-radius: 10px;
 }
